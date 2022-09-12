@@ -1,22 +1,23 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "description": "A landing page with using sass",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nansmatty/Nautors-Landing-Page.git"
-  },
-  "author": "Narayan Maity",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nansmatty/Nautors-Landing-Page/issues"
-  },
-  "homepage": "https://github.com/nansmatty/Nautors-Landing-Page#readme",
-  "devDependencies": {
-    "node-sass": "^7.0.3"
-  }
+	"name": "natours",
+	"version": "1.0.0",
+	"description": "A landing page with using sass",
+	"main": "index.js",
+	"scripts": {
+		"build:sass": "node-sass ./sass/main.scss ./css/style.css",
+		"watch:sass": "node-sass ./sass/main.scss ./css/style.css -watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nansmatty/Nautors-Landing-Page.git"
+	},
+	"author": "Narayan Maity",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nansmatty/Nautors-Landing-Page/issues"
+	},
+	"homepage": "https://github.com/nansmatty/Nautors-Landing-Page#readme",
+	"devDependencies": {
+		"node-sass": "^7.0.3"
+	}
 }
